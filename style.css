@@ -18,19 +18,7 @@ body {
   font-weight: normal;
 }
 
-/* 针对电脑屏幕的样式 */
-@media screen and (min-width: 768px) {
-  body {
-    background-position: center 80%; /* 电脑屏幕上显示图片的下半部分 */
-  }
-}
 
-/* 针对手机屏幕的样式 */
-@media screen and (max-width: 767px) {
-  body {
-    background-position: center center; /* 手机屏幕上显示图片的中间部分 */
-  }
-}
 h1 {
   font-size: 5rem;
   font-weight: bolder;
@@ -42,7 +30,11 @@ h1 {
 }
 
 /* 针对电脑屏幕的样式 */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 501px) {
+
+  body {
+    background-position: center 80%; /* 电脑屏幕上显示图片的下半部分 */
+  }
   h1 {
     font-size: 4rem; /* 电脑屏幕上标题的字体大小 */
     margin-top: 10%; /* 电脑屏幕上标题的垂直位置 */
@@ -54,10 +46,13 @@ h1 {
 }
 
 /* 针对手机屏幕的样式 */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 500px) {
+  body {
+    background-position: center center; /* 手机屏幕上显示图片的中间部分 */
+  }
   h1 {
-    font-size: 2rem; /* 手机屏幕上标题的字体大小 */
-    margin-top: 20%; /* 手机屏幕上标题的垂直位置 */
+    font-size: 3rem; /* 手机屏幕上标题的字体大小 */
+    margin-top: 10%; /* 手机屏幕上标题的垂直位置 */
   }
 
   .big-text {
