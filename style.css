@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxkb-CTcZPIqjO7WZXO_evTLOxuyASD4NbvA&usqp=CAU);
+  background-image:bakground.jpg;
   background-position: center;
   background-repeat: round;
   display: flex;
