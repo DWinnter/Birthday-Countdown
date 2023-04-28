@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background-image:bakground.jpg;
+  background-image:background.jpg;
   background-position: center;
   background-repeat: round;
   display: flex;
