@@ -58,12 +58,21 @@ h1 {
 /* 针对手机屏幕的样式 */
 @media screen and (max-width: 767px) {
   h1 {
-    font-size: 1.5rem; /* 手机屏幕上标题的字体大小 */
+    font-size: 2rem; /* 手机屏幕上标题的字体大小 */
     margin-top: 20%; /* 手机屏幕上标题的垂直位置 */
   }
 
   .big-text {
     font-size: 1.5rem; /* 手机屏幕上倒计时数字的字体大小 */
+  }
+
+  .countdown-container {
+    width: 50%; /* 设置 .countdown-container 的宽度 */
+    margin: 0 auto; /* 水平居中 .countdown-container */
+  }
+
+  .cd-el {
+    margin: 0.25rem; /* 调整手机屏幕上倒计时元素的边距 */
   }
 }
 
