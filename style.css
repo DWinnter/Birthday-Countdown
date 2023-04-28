@@ -54,7 +54,6 @@ h1 {
     font-size: 3rem; /* 手机屏幕上标题的字体大小 */
     margin-top: 10%; /* 手机屏幕上标题的垂直位置 */
   }
-
   .big-text {
     font-size: 1.5rem; /* 手机屏幕上倒计时数字的字体大小 */
   }
@@ -62,11 +61,13 @@ h1 {
   .countdown-container {
     width: 50%; /* 设置 .countdown-container 的宽度 */
     margin: 0 auto; /* 水平居中 .countdown-container */
+    flex-wrap: wrap; /* 设置 .countdown-container 的 flex-wrap 属性为 wrap */
   }
 
   .cd-el {
-    margin: 0.25rem; /* 调整手机屏幕上倒计时元素的边距 */
+    margin: 0.5rem; /* 调整手机屏幕上倒计时元素的边距 */
   }
+
 }
 
 .countdown-container {
