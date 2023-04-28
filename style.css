@@ -3,6 +3,8 @@
 * {
   box-sizing: border-box;
 }
+
+
 body {
   background-image: url(background.jpg);
   background-position: center;
@@ -14,6 +16,20 @@ body {
   font-family: "Roboto", sans-serif;
   margin: 0;
   font-weight: normal;
+}
+
+/* 针对电脑屏幕的样式 */
+@media screen and (min-width: 768px) {
+  body {
+    background-position: center 80%; /* 电脑屏幕上显示图片的下半部分 */
+  }
+}
+
+/* 针对手机屏幕的样式 */
+@media screen and (max-width: 767px) {
+  body {
+    background-position: center center; /* 手机屏幕上显示图片的中间部分 */
+  }
 }
 h1 {
   font-size: 5rem;
