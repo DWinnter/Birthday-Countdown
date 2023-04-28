@@ -41,10 +41,8 @@ h1 {
   background-image: linear-gradient(180deg, #a9c9ff 0%, #ffbbec 100%);
 }
 
-
-
 /* 针对电脑屏幕的样式 */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1501px) {
   h1 {
     font-size: 4rem; /* 电脑屏幕上标题的字体大小 */
     margin-top: 10%; /* 电脑屏幕上标题的垂直位置 */
@@ -56,7 +54,7 @@ h1 {
 }
 
 /* 针对手机屏幕的样式 */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1500px) {
   h1 {
     font-size: 2rem; /* 手机屏幕上标题的字体大小 */
     margin-top: 20%; /* 手机屏幕上标题的垂直位置 */
